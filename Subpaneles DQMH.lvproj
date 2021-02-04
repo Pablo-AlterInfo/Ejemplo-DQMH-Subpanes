@@ -18,7 +18,9 @@
 			<Item Name="Test Molde API.vi" Type="VI" URL="../Libraries/Molde/Test Molde API.vi"/>
 			<Item Name="Test Numpad API.vi" Type="VI" URL="../Libraries/Numpad/Test Numpad API.vi"/>
 		</Item>
-		<Item Name="Utilities" Type="Folder"/>
+		<Item Name="Utilities" Type="Folder">
+			<Item Name="Insertar SubPanel-Modificado.vi" Type="VI" URL="../Utilities/Insertar SubPanel-Modificado.vi"/>
+		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="AddNamedRendezvousPrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/AddNamedRendezvousPrefix.vi"/>
@@ -75,7 +77,6 @@
 				<Item Name="Wait at Rendezvous.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/Wait at Rendezvous.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="Insert SubPanel.vi" Type="VI" URL="../Utilities/Insert SubPanel.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
